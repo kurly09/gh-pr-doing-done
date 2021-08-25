@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-gh alias set doing 'pr create -d'
+gh alias set doing 'pr create -d -t'
 gh alias set done 'pr ready'
